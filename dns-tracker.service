@@ -3,7 +3,7 @@ Description=dns-tracker
 After=mysql.service
 
 [Service]
-ExecStart=/opt/dns-tracker/db.sh
+ExecStart=/opt/dns-tracker/run.sh
 User=root
 TimeoutSec=5
 Restart=on-failure
